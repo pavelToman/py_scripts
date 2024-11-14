@@ -41,7 +41,7 @@ fun_g(10, b=20) # fun_g: (10, 20)
 # fun_g(10,20) TypeError: fun_g() takes 1 positional argument but 2 were given
 # fun_g(10) TypeError: fun_g() missing 1 required keyword-only argument: 'b'
 
-# 3 * in the end of arguments
+# 3) * in the end of arguments
 
 # def fun_e(a,b,*): SyntaxError: named arguments must follow bare *
 #     print(f"fun_e: {a,b,c,d,e}")
